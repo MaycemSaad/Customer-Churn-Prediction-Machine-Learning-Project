@@ -1,0 +1,13 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+class Settings:
+    MONGODB_URL = os.getenv("MONGODB_URL", "mongodb://localhost:27017")
+    DATABASE_NAME = os.getenv("DATABASE_NAME", "churn_prediction")
+    COLLECTION_PREDICTIONS = "predictions"
+    COLLECTION_CUSTOMERS = "customers"
+    COLLECTION_MODEL_METRICS = "model_metrics"
+
+settings = Settings()
