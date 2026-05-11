@@ -13,17 +13,9 @@
 ## Overview
 **Telecom Customer Churn Prediction** is a full AI-driven solution that predicts the probability of customer churn in the telecommunications sector.
 
--  **ML Backend** using FastAPI and scikit-learn  
--  **Modern Frontend** built with React, TypeScript, and TailwindCSS  
--  **Interactive Dashboard** for monitoring and analysis  
--  Real-time and batch prediction support, with retraining capabilities  
+ 
 
----
 
-##  Key Features
--  Churn prediction (single customer or batch mode)  
--  Storage of predictions and metrics in **MongoDB**  
--  Model retraining via API (`/model/retrain`)  
--  Dashboard for visualizing KPIs and churn risk  
+
 
 ---
